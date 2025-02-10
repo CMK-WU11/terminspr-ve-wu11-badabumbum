@@ -9,7 +9,7 @@ Husk, at du ikke må arbejde på din opgave mellem kl. 16:00 og kl. 8:00.
 ## Dag 1
 
 Morgen - 08:50
-Eftermiddag - (tidspunkt)
+Eftermiddag - 16:36
 
 ## Dag 2
 
