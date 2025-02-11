@@ -1,16 +1,24 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 
 export default {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lightGray: '#EAEAEA',
+        lightPink: '#E1A1E9',
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+      },
+      fontFamily: {
+        ubuntu: ['Ubuntu', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        racing: ['Racing Sans One', 'cursive'],
+      },
+      fontSize: {
+        sm: '18px',
+        md: '24px',
+        lg: '36px',
       },
     },
   },
